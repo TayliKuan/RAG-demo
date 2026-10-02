@@ -57,7 +57,7 @@ def main():
         persist_directory=CHROMA_DB_DIR,
     )
     llm = ChatGoogleGenerativeAI(
-        model="gemini-3.8-flash",
+        model="gemini-3.5-flash-lite",
         google_api_key=GOOGLE_API_KEY,
         temperature=0.3,
     )

@@ -72,7 +72,7 @@ def build_rag_chain(vectorstore):
 
     # Gemini LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-3.8-flash",
+        model="gemini-3.5-flash-lite",
         google_api_key=GOOGLE_API_KEY,
         temperature=0.3,  # 0=保守/確定, 1=創意/多樣
     )
