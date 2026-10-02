@@ -1,0 +1,15 @@
+# API Key - 絕對不能上傳
+.env
+
+# 向量資料庫（體積大，可重新建立）
+chroma_db/
+faiss_db/
+
+# Python 暫存
+__pycache__/
+*.pyc
+*.pyo
+
+# 系統檔
+.DS_Store
+Thumbs.db
